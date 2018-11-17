@@ -1,0 +1,4 @@
+def foil(a, b, c):
+    print(str(a**2) + "x^2 + " + str(b**2) + "y^2 + " + str(2*a*b) + "x*y + " + str(2*a*c) + "x + " + str(2*b*c) + "y + " + str(c**2))
+
+foil(6,4,-17)
